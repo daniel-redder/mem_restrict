@@ -3,8 +3,7 @@ import resource
 
 
 #https://www.geeksforgeeks.org/python-how-to-put-limits-on-memory-and-cpu-usage/
-
-PERCENTAGE_MEMORY_ALLOWED = 0.8
+PERCENTAGE_MEMORY_ALLOWED = 0.89
 
 # Calculate the maximum memory limit (80% of available memory)
 virtual_memory = psutil.virtual_memory()
